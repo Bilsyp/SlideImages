@@ -22,7 +22,7 @@ function next() {
   imgElement[current].style.border = `1px solid white`;
 
   main.style.background = `url("${imgs[current]}") center center/cover`;
-  console.log(current);
+  // console.log(current);
   if (current >= 2) {
     current = -1;
   }

@@ -234,9 +234,24 @@ nav {
   }
   .img-container {
     gap: 40px;
+    img {
+      width: 100px;
+    }
   }
 
   .social-media {
     width: 40%;
+  }
+}
+@media (max-width: 400px) {
+  nav {
+    ul li a {
+      font-size: 14px;
+    }
+  }
+  .social-media {
+    ul {
+      gap: 20px;
+    }
   }
 }
